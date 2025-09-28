@@ -86,7 +86,6 @@ Os exercícios estão divididos por **listas temáticas**, seguindo a numeraçã
 Cada exercício segue **três etapas principais**:
 
 1. **Algoritmo** — descrição lógica passo a passo.  
-2. **Diagrama de Blocos** — representação gráfica do fluxo.  
-3. **Codificação em Portugol** — implementação em Português Estruturado.  
+2. **Codificação em Portugol** — implementação em Português Estruturado.  
 
 ---
