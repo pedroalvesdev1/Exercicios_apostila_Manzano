@@ -1,33 +1,24 @@
-Algoritmo "ex7iDiferençasQuadrados"
-// Disciplina  : Lógica de Programação
+Algoritmo "ex7iDiferenÃ§asQuadrados"
+// Disciplina  : LÃ³gica de ProgramaÃ§Ã£o
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Ler dois inteiros (variáveis A e B) e imprimir o resultado do
-//               quadrado da diferença do primeiro valor pelo segundo.
+// DescriÃ§Ã£o   : Ler dois inteiros (variÃ¡veis A e B) e imprimir o resultado do
+//               quadrado da diferenÃ§a do primeiro valor pelo segundo.
 // Autor(a)    : Pedro Alves
 // Data atual  : 19/09/2025
 Var
-   // Seção de Declarações das variáveis
-   a, b, resultadoAquadrado, resultadoBquadrado, resultadoDiferencas:real
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
+   a, b, resultadoDiferencas:real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
    Escreval("Digite o valor do A: ")
    Leia(a)
    Escreval("Digite o valor do b: ")
    Leia(b)
 
-   resultadoAquadrado<- a ^ 2
-   resultadoBquadrado<- b ^ 2
+   resultadoDiferencas<- (a - b) ^ 2
 
-   se resultadoAquadrado > resultadoBquadrado entao
-      resultadoDiferencas<- resultadoAquadrado - resultadoBquadrado
-   senao
-      resultadoDiferencas<- resultadoBquadrado - resultadoAquadrado
-   fimse
-
-   Escreval("O quadrado de ",a,"é",resultadoAquadrado)
-   Escreval("O quadrado de ",b,"é",resultadoBquadrado)
-   Escreval("a dirença entre os resultado é de", resultadoDiferencas)
+   Escreval("O quadrado da diferenÃ§a entre A e B Ã©:", resultadoDiferencas)
 
 Fimalgoritmo
