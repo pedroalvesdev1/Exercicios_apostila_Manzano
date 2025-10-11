@@ -1,28 +1,29 @@
 Algoritmo "ex1lRepeticaoInteiros"
-// Disciplina  : Lógica de Programação
+// Disciplina  : LÃ³gica de ProgramaÃ§Ã£o
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Continua o processo de solicitar número inteiro, e coleta o maor e o menor.
+// DescriÃ§Ã£o   : Continua o processo de solicitar nÃºmero inteiro, e coleta o maor e o menor.
 // Autor(a)    : Pedro Alves
 // Data atual  : 23/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 
    numero, maior, menor:inteiro
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
    enquanto numero >= 0 faca
       Escreval("Digite um numero")
       Leia(numero)
-      se (numero >  maior) entao
-         maior<- numero
-      senao
-         se (numero <  menor) entao
-            menor<- numero
+      se(numero >= 0) entao
+         se (numero >  maior) entao
+            maior<- numero
+            se (numero <  menor) entao
+               menor<- numero
+            fimse
          fimse
       fimse
    fimenquanto
-   
+
    Escreval(maior)
    Escreval(menor)
 
