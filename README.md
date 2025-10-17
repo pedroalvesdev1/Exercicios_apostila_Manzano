@@ -83,7 +83,7 @@ Os exercícios estão divididos por **listas temáticas**, seguindo a numeraçã
 
 ## 🚀 Processo de Resolução
 
-Cada exercício segue **três etapas principais**:
+Cada exercício segue **duas etapas principais**:
 
 1. **Algoritmo** — descrição lógica passo a passo.  
 2. **Codificação em Portugol** — implementação em Português Estruturado.  
